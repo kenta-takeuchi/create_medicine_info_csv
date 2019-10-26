@@ -82,7 +82,6 @@ def main():
         driver_path = DRIVER_WIN
         output_csv_path = CSV_PATH_WIN
     else:
-        driver_path = DRIVER_MAC
         output_csv_path = CSV_PATH_MAC
 
     # ブラウザ起動
