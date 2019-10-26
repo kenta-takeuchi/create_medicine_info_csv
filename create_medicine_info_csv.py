@@ -1,7 +1,6 @@
 import csv
 import os
 import os.path
-import pprint
 import time
 import traceback
 
@@ -82,6 +81,7 @@ def main():
         driver_path = DRIVER_WIN
         output_csv_path = CSV_PATH_WIN
     else:
+        driver_path = DRIVER_MAC
         output_csv_path = CSV_PATH_MAC
 
     # ブラウザ起動
